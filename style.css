@@ -4,4 +4,28 @@ body{
     box-sizing: border-box;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#suggestions{
+    padding: 0.5rem;
+    margin: 0.3rem;
+    
+}
+#suggestions h5 {
+    display: inline;
+    background-color : grey;
+    color: rgba(255, 255, 255, 0.945);
+    margin: .5rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+#suggestions h5:hover {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.945);
+    margin: .8rem;
+    background-color : rgb(65, 63, 63);
+    padding: 0.8rem;
+    border-radius: 4rem;
 
+}
