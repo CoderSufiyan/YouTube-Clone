@@ -4,15 +4,21 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
 }
-#navbar nav {
+.cursorP{
+    cursor: pointer;
+}
+#navbar nav {    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 1rem;
 }
 #suggestions{
     padding: 0.5rem;
     margin: 0.3rem;
-    
+    position: static;
+    left: 10vw;
 }
 #suggestions h5 {
     display: inline;
@@ -36,7 +42,112 @@ body{
 }
 #searchbar{
     display: flex;
+    gap: 1rem;
+}
+
+#searchbar button{
+    height: 2rem;
+    background-color: #202020;
+    transition: all .3s;
+    border: 0px;
 }
 #searchbar input{
+    color: white;
+    width: 30rem;
+    padding: .3rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(61, 61, 61);
+    transition: all .3s;
+}
+#searchbar input:focus{
+    font-size: 1.5rem;
+}
+i{
+    transition: all .3s;
+}
+i:hover{
+    font-size: 1.6rem;
+}
+#remainingicons{
+    display: flex;
+    justify-content: space-evenly;
 
+}
+#remainingicons i {
+    padding: .5rem;
+}
+#side-bar{
+    position: fixed;
+    left: 0;
+    width: 10vw;
+}
+#main-body{
+    padding: 0rem;
+    color: white;
+    display:flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    width: 90vw;
+    position: absolute;
+    left: 10vw;
+}
+i.fa-microphone{
+    color: white;
+    border: 1px solid grey;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    transition: all .3s;
+}
+i.fa-microphone:hover{
+    background-color: black;
+}
+.videodetails{
+    display: flex;
+    gap: 1rem;
+}
+.cards{
+    width: 15rem;
+    margin: 1.5rem;
+}
+
+.channellogo{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10rem;
+}
+.channelinfo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+}
+.videotitle{
+    margin: 0.5rem 0;
+}
+.videodetails h6{
+    margin: 0;
+}
+img.thumbnail{
+    width: 18rem;
+    height: 10rem;
+}
+.sideCards{
+    margin: 1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    transition: all .3s;
+}
+.sideCards:hover{
+    border-radius: 1rem;
+    background-color: #f32d13;
+}
+.sideCards i{
+    font-size: 1.2rem;
+}
+.sideCards h5{
+    margin: 0;
+    font-size: 1rem;
 }
