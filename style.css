@@ -80,14 +80,16 @@ i:hover{
 #remainingicons i {
     color: white;
     font-size: 1.2rem;
+    transition: ease .3s;
 }
 #remainingicons i:hover{
     color: #f32d13;
+    
 }
 #side-bar{
     position: absolute;
     left: 0;
-    width: 10vw;
+    width: 15vw;
 }
 #main-body{
     padding: 0rem;
@@ -95,9 +97,9 @@ i:hover{
     display:flex;
     gap: 0.5rem;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 85vw;
     position: absolute;
-    left: 10vw;
+    left: 15vw;
 }
 i.fa-microphone{
     color: white;
@@ -115,7 +117,7 @@ i.fa-microphone:hover{
     gap: 1rem;
 }
 .cards{
-    width: 15rem;
+    width: 14rem;
     margin: 1.5rem;
     transition: all .3s;
 }
@@ -140,8 +142,8 @@ i.fa-microphone:hover{
     margin: 0;
 }
 img.thumbnail{
-    width: 18rem;
-    height: 10rem;
+    width: 16rem;
+    height: 9rem;
     transition: all .3s;
 }
 img.thumbnail:hover{
@@ -150,13 +152,13 @@ img.thumbnail:hover{
     opacity: .5;
 }
 .sideCards{
-    margin: 1.5rem 0rem;
+    margin: .5rem 0rem;
     padding: .8rem;
     display: flex;
     justify-content: flex-start;
-    gap: .5rem;
+    gap: 1.5rem;
     color: white;
-    transition: all .3s;
+    transition: ease .3s;
 }
 .sideCards:hover{
     background-color: #f32d13d2;
